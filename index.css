@@ -1,0 +1,27 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Vazirmatn', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  direction: rtl;
+}
+.task {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.task.done .title {
+  text-decoration: line-through;
+  color: #aaa;
+}
+.description {
+  display: none;
+  font-size: 0.9rem;
+}
+.task:hover .description {
+  display: block;
+}
